@@ -17,6 +17,7 @@ source $HOME/.config/zsh/style.zsh
 setopt auto_cd
 
 source $HOME/.config/zsh/alias.zsh
+# source $HOME/.config/zsh/alias-mac.zsh
 
 export EDITOR=/usr/bin/nvim
 export GPG_TTY=$(tty)
