@@ -9,7 +9,7 @@ so I use either the Linux distro package manager or Nix on macOS.
 
 Zsh is my shell of choice for interactive shell, while Dash is my shell of choice for scripting.
 Why? Because Dash is quite light on resource usage, zsh is quite heavy, same for bash.  Both `zsh`
-and `dash` come installed on the macOS by default since Catelina.
+and `dash` come installed on the macOS by default since Catalina.
 
 Have fun coding =D
 
