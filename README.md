@@ -4,8 +4,8 @@ This is where I keep my zsh configuration, I'd advice you fork it and make it yo
 only you are familer with your own work environment. =D
 
 I'd also advice that you to avoid using zsh framework like oh-my-zsh for example and
-only stick to prompt framework like starship.  I tend to avoid plugin system as well, so I use
-either the Linux distro package manager or Nix on macOS.
+only stick to binary prompt framework like starship.  I tend to avoid plugin system as well,
+so I use either the Linux distro package manager or Nix on macOS.
 
 Zsh is my shell of choice for interactive shell, while Dash is my shell of choice for scripting.
 Why? Because Dash is quite light on resource usage, zsh is quite heavy, same for bash.  Both `zsh`
