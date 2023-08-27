@@ -3,7 +3,7 @@
 This is where I keep my zsh configuration, I'd advice you fork it and make it your own; because
 only you are familer with your own work environment. =D
 
-I'd also advice that you to avoid using zsh framework like oh-my-zsh for example and
+I'd also advice that to avoid using zsh framework like oh-my-zsh for example and
 only stick to binary prompt framework like starship.  I tend to avoid plugin system as well,
 so I use either the Linux distro package manager or Nix on macOS.
 
