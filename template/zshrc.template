@@ -11,6 +11,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+setopt hist_ignore_dups
+
 source $HOME/.config/zsh/tab.zsh
 source $HOME/.config/zsh/style.zsh
 
