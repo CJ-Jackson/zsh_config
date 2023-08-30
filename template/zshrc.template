@@ -2,26 +2,16 @@
 HISTFILE=~/.histfile
 HISTSIZE=5000
 SAVEHIST=5000
-bindkey -v
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/cjjackson/.zshrc'
 
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-
-setopt hist_ignore_dups
+source $HOME/.config/zsh/options.zsh
 
 source $HOME/.config/zsh/tab.zsh
 source $HOME/.config/zsh/style.zsh
 
-setopt auto_cd
-
 source $HOME/.config/zsh/alias.zsh
 # source $HOME/.config/zsh/alias-mac.zsh
 
-export EDITOR=/usr/bin/nvim
+# export EDITOR=/usr/bin/nvim
 export GPG_TTY=$(tty)
 
 PS1='%n@%m %~$ '

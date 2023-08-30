@@ -1,3 +1,5 @@
+zstyle :compinstall filename "$HOME/.config/zsh/style.zsh"
+
 zstyle '*' single-ignored show
 
 zstyle ':completion:*' completer _extensions _complete _approximate
