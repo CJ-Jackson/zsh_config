@@ -29,6 +29,9 @@ setopt MENU_COMPLETE
 # Bind Key
 
 bindkey -v
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
 
+# autoload compinit
 autoload -Uz compinit
 compinit
