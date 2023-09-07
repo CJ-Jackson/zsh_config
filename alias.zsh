@@ -1,5 +1,5 @@
 alias ls='ls --color=auto'
 alias la='ls -la --block-size=K'
 
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
+alias pbcopy='wl-copy'
+alias pbpaste='wl-paste'
