@@ -1,7 +1,7 @@
 if command -v eza > /dev/null
 then
 	alias ls='eza'
-	alias la='eza -lh'
+	alias la='eza -lah'
 else
 	alias ls='ls --color=auto'
 	alias la='ls -la --block-size=K'
