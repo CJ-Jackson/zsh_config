@@ -1,0 +1,20 @@
+HISTFILE=~/.histfile
+HISTSIZE=5000
+SAVEHIST=5000
+
+source $HOME/.config/zsh/options.zsh
+
+source $HOME/.config/zsh/tab.zsh
+source $HOME/.config/zsh/style.zsh
+
+source $HOME/.config/zsh/alias-mac.zsh
+
+# export EDITOR=/Users/cjjackson/.nix-profile/bin/nvim
+
+PS1='%n@%m %~$ '
+
+# source /Users/cjjackson/.nix-profile/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /Users/cjjackson/.nix-profile/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# eval "$(direnv hook zsh)"
+# eval "$(starship init zsh)"
