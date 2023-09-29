@@ -1,0 +1,21 @@
+HISTFILE=~/.histfile
+HISTSIZE=5000
+SAVEHIST=5000
+
+source $HOME/.config/zsh/options.zsh
+
+source $HOME/.config/zsh/tab.zsh
+source $HOME/.config/zsh/style.zsh
+
+source $HOME/.config/zsh/alias.zsh
+
+# export EDITOR=/usr/bin/nvim
+export GPG_TTY=$(tty)
+
+PS1='%n@%m %~$ '
+
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# eval "$(direnv hook zsh)"
+# eval "$(starship init zsh)"
