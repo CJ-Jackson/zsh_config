@@ -3,10 +3,10 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ga
 if [ -d /etc/profile.d ]; then
   for i in /etc/profile.d/*.sh; do
     if [ -r $i ]; then
-     emulate sh -c '. $i'
-   fi
- done
- unset i
+      emulate sh -c '. $i'
+    fi
+  done
+  unset i
 fi
 
 PATH="$HOME/.usr/bin:$PATH"
