@@ -7,6 +7,9 @@ fi
 
 XDG_DATA_DIRS="$HOME/.local/share/override/share:$HOME/.nix-profile/share:$XDG_DATA_DIRS"
 PATH="$HOME/.usr/bin:$HOME/go/bin:$PATH"
+
+# export MANPAGER='nvim +Man!'
+
 typeset -U PATH path
 typeset -UT XDG_DATA_DIRS xdg_data_dirs
 

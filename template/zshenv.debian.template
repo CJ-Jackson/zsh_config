@@ -14,5 +14,7 @@ PATH="$HOME/.usr/bin:$PATH"
 export PATH
 export XDG_DATA_DIRS
 
+# export MANPAGER='nvim +Man!'
+
 typeset -U PATH path
 typeset -UT XDG_DATA_DIRS xdg_data_dirs
